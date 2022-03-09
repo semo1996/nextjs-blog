@@ -48,3 +48,34 @@ footer .socialLinks a{
     text-decoration: none;
     text-transform: uppercase;
 }
+.contentForm form{
+    max-width: 1200px;
+    margin: 50px auto;
+    min-height: calc(100vh - 35vh);
+}
+form .field{
+    width: 45%;
+    display: inline-block;
+    position: relative;
+    margin: 5px 10px;
+    vertical-align: top;
+}
+form input{
+    width: 100%;
+    height: 32px;
+}
+form button{
+    display: block;
+    margin: 5px auto;
+    background-color: #01a6d1;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.errorMessage{
+    color: red;
+    font-size: 14px;
+}
